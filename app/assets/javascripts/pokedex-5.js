@@ -79,11 +79,11 @@ Pokedex.Views.ToyDetail = Backbone.View.extend({
 });
 
 
-$(function () {
-  var pokemons = new Pokedex.Collections.Pokemon();
-  var pokemonIndex = new Pokedex.Views.PokemonIndex({
-    collection: pokemons
-  });
-  pokemonIndex.refreshPokemon();
-  $("#pokedex .pokemon-list").html(pokemonIndex.$el);
-});
+// $(function () {
+//   var pokemons = new Pokedex.Collections.Pokemon();
+//   var pokemonIndex = new Pokedex.Views.PokemonIndex({
+//     collection: pokemons
+//   });
+//   pokemonIndex.refreshPokemon();
+//   $("#pokedex .pokemon-list").html(pokemonIndex.$el);
+// });
